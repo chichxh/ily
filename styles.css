@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
 body {
     background: linear-gradient(45deg, #ff9a9e, #fad0c4);
     min-height: 100vh;
     margin: 0;
     padding: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nunito', 'Arial', sans-serif;
 }
 
 .container {
@@ -70,10 +75,11 @@ body {
     left: 48%;
     width: 85%;
     height: 100%;
-    border: 2px solid #ff0066;
+    border: 2px solid #efaeae;
     border-width: 0 2px 2px 0;
     transform: translate(-50%, -50%) rotate(45deg);
     opacity: 0.3;
+    z-index: -10;
 }
 
 .card:hover {
